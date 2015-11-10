@@ -1,0 +1,45 @@
+<rootdoc>
+	<WSUserID>C8201660775</WSUserID>
+	<WSPassword>oepYAQO76)</WSPassword>
+	<Company>C820</Company>
+	<ASCNo>1660775</ASCNo>
+	<ASCTicketNo>711187</ASCTicketNo>
+	<ModelCode>NP270E5J-XD3BR</ModelCode>
+	<Serial>062Q9QBG500623L</Serial>
+	<IMEI>062Q9QBG500623L</IMEI>
+	<PurchaseDate>20150803</PurchaseDate>
+	<CarrierCode />
+	<DealerCode />
+	<DefectDesc>APARELHO nao INICIA</DefectDesc>
+	<Remark />
+	<WtyExceptionCode />
+	<ServiceType>CI</ServiceType>
+	<ReceiveDate>20150821</ReceiveDate>
+	<ReceiveTime>120335</ReceiveTime>
+	<UnitReceivedDate>20150821</UnitReceivedDate>
+	<UnitReceivedTime>120335</UnitReceivedTime>
+	<ShipInNo />
+	<CustDate />
+	<CustTime />
+	<AppointmentDate />
+	<AppointmentTime />
+	<Gender>M</Gender>
+	<Title>0002</Title>
+	<CustFName>Paulo</CustFName>
+	<CustLName>Luiz Gonzalves</CustLName>
+	<HomePhone>11985585121</HomePhone>
+	<UniqueID>22837504823</UniqueID>
+	<OfficePhone>1141292367</OfficePhone>
+	<OfficePhoneExt />
+	<CellPhone />
+	<Fax />
+	<Email />
+	<Address>Rua Pedro Zolcsak</Address>
+	<Address2>25</Address2>
+	<Address3 />
+	<District>Ferrazpolis</District>
+	<City>Sao Bernardo do Camp</City>
+	<State>SP</State>
+	<Zipcode>09790-410</Zipcode>
+	<Country>BR</Country>
+</rootdoc>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+
+	<!-- ########################################## -->
+	<!-- ## SQL SERVER DATABASE CONFIG ############ -->
+	<!-- ########################################## -->
+	<persistence-unit name="SQLServerPU" transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+
+		<non-jta-data-source>java:comp/env/jdbc/sqlServerDataSource</non-jta-data-source>
+
+		<class>com.samsung.service.model.BatLogBean</class>
+		<class>com.samsung.service.model.ContactBean</class>
+		<class>com.samsung.service.model.TelcelBean</class>
+		<class>com.samsung.service.model.UserNotifiesBean</class>
+		<class>com.samsung.service.model.UserBean</class>
+		<class>com.samsung.service.model.RoleBean</class>
+		
+		<properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+		</properties>
+	</persistence-unit>
+</persistence>
